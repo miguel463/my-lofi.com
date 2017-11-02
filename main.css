@@ -1,0 +1,75 @@
+      .intro {
+        border:dashed 5px;
+        border-radius: 25px;
+        padding:10px;
+        margin:0 auto;
+        color:cyan;
+        background-color:magenta;
+        font-family:Courier;
+        text-align:left;
+        width:75%;
+      }
+      
+      div {
+        color:red;
+        background-color: black;
+        font-family:Courier;
+        text-align:center;
+      }
+      
+      .header {
+        color:blue;
+        background-color:cyan;
+        font-size: 40px;
+        font-family:Verdana;
+        text-align:center;
+        text-shadow: 2px 2px 5px grey;
+      }
+      
+      body {
+        background-color:turquoise;
+        background: linear-gradient(cyan, pink , pink)
+      }
+      
+      .content {
+        text-align:center;
+        height:100%;
+        background: linear-gradient(cyan, pink, pink)
+      }
+      
+      .image {
+        width:100%   
+      }
+      
+      .h1 {
+        color:purple;
+        background-color:gold
+      }
+      
+      .p1 {
+        border:outset 5px;
+        border-color:gold;
+        padding:5px;
+        margin:0 auto;
+        color:gold;
+        text-align:right;
+        width:50%;
+      }
+      
+      .p2 {
+        color:gold;
+        width:1000;
+        text-align:center;
+        border:outset gold
+      }
+      
+      .pbackground {
+        border:outset 5px;
+        border-color:purple;
+        padding:5px;
+        margin:0 auto;
+        background-color:cyan;
+        width:15%;
+        font-family:Courier;
+        color:purple;
+      }
