@@ -60,7 +60,7 @@
         color:gold;
         width:1000;
         text-align:center;
-        border:outset gold
+        border:outset 5px gold
       }
       
       .pbackground {
