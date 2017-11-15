@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" type="text/css" href="http://my-lofi.com/main.css">
+  
+  <style>
+    div {
+      width: 100px;
+      float: left;
+    }
+    
+    .thumbnail {
+        color:gold;
+        width:1000;
+        text-align:center;
+        border:outset 5px gold
+      }
+    
+    div:hover {
+      border:outset 5px;
+        border-color:purple;
+        background-color:cyan;
+        font-family:Courier;
+        color:purple;
+    }
+    
+    a {
+      color: gold
+    }
+    
+    a:hover {
+      color: purple
+    }
+    
+</head>
+<body>
+    
+  <div class="thumbnail">
+    <a href="http://my-lofi.com/photos/1.jpg" target="_blank">
+    <img src="http://my-lofi.com/photos/1-thumb.jpg">
+    TT Nissan 300zx
+  </div>
+  <br>
+  <div class="thumbnail">
+    <a href="http://my-lofi.com/photos/2.jpg" target="_blank">
+    <img src="http://my-lofi.com/photos/2-thumb.jpg">
+    Jeep Grand Cherokee Trackhawk
+  </div>
+  <br>
+  <div class="thumbnail">
+    <a href="http://my-lofi.com/photos/3.jpg" target="_blank">
+    <img src="http://my-lofi.com/photos/3-thumb.jpg">
+    Nissan Fairlady Z  
+  </div>
+  <br>
+  <div class="thumbnail">
+    <a href="http://my-lofi.com/photos/4.jpg" target="_blank">
+    <img src="http://my-lofi.com/photos/4-thumb.jpg">
+    Nissan GT-R R32 
+  </div>  
+  <br>
+  <div class="thumbnail">
+    <a href="http://my-lofi.com/photos/5.jpg" target="_blank">
+    <img src="http://my-lofi.com/photos/5-thumb.jpg">
+    Nissan 240sx 
+  </div>  
+  <br>
+  <div class="thumbnail">
+    <a href="http://my-lofi.com/photos/6.jpg" target="_blank">
+    <img src="http://my-lofi.com/photos/6-thumb.jpg">
+    Nissan S14 Kouki 
+  </div>  
 
+
+    
+</body>
+</html>
