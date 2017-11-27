@@ -58,9 +58,10 @@
       
       .p2 {
         color:gold;
-        width:1120px;
+        width:1000px;
         text-align:center;
-        border:outset 5px gold
+        border:outset 5px gold;
+        margin: 0 auto;
       }
       
       .pbackground {
