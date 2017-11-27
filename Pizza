@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ping Pong Pizza</title>
+</head>
+  
+<style>
+  
+  body {
+    background: linear-gradient(red, white, red);
+  }
+  
+  .headerpng {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .header {
+    font-family: broadway;
+    font-size: 65px;
+    text-align: center;
+  }
+  
+  .subheader {
+    font-family: elephant;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .p1header {
+    text-align: center;
+    font-size: 30px;
+    font-family: broadway;
+  }
+  
+  .p1 {
+    border: dashed;
+    padding: 5px;
+    margin: 0px 200px 0px 200px;
+    font-family: hobo std;
+    font-size:20px;
+  }
+  
+  .packages {
+    border: outset 5px;
+    width: 247px;
+    padding: 0px 0px 5px 0px;
+    border-color: blue;
+    text-align: center;
+    float: left;
+    margin: 0px 186px 0px 186px;
+    font-family: century gothic;
+  }
+  
+  
+</style>
+  
+<body>
+<div class="content">
+  <img src="http://www.themesltd.com/headers2/pizza_universe.png" class="headerpng">
+  
+  <div class="header">
+    <b>Ping Pong Pizza Place</b>
+  </div>
+  <div class="subheader">
+    Address: 926 Pepperoni Ln., Pasco, WA
+    <br>
+    Phone: (509)-555-PZZA
+  </div>
+  <br>
+  <br>
+  <div class="p1header">
+    <b>Our Mission</b>
+  </div>
+  <div class="p1">
+    Ever since he was a kid, our founder, Rodney Foreman has loved pizza, but he especially loved going out to
+    dinner with his family at their local pizza place. Now, Rodney wants every kid to be able to experience an
+    outing at their pizza place of choice. Here at Ping Pong Pizza Place we are all about the family experience
+    inside our establishment. From the lavish Arcade area where kids may enjoy many classic games such as,
+    Tetris, Racing, Super Mario, and many more! For children of smaller ages and those that prefer to be more
+    active we offer an extensive play area with slides, crawlspaces, and assorted wall games throughout. 
+    Of course the adults are not simply left to their own devices, we have mounted wall tv's playing anything 
+    from sports to cartoons and ambient music to soothe your eating experience. Please help yourself to one 
+    of our affordable family dinner packages below!
+    <br>
+    <em>-Available at the restaraunt, call for reservations-</em>
+  </div>
+  <br>
+  <br>
+  <div class="packages">
+    <img src="http://storage.googleapis.com/bro-cdn1/zgrid/themes/10486/images/coupons/36791.jpg">
+    Small Family: Large one-topping pizza, and two sodas for <b>$12.99!</b>
+  </div>
+  <div class="packages">
+    <img src="http://img.mascarx.com/mascarqis///257/201704/product/0c81e6cc-1708-4b71-9f41-2c37fb13e93b.jpg" length="153px" width="247px">
+    Medium family: Large two-topping pizza, breadsticks, and four sodas. <b>$19.99</b>
+  </div>
+  <div class="packages">
+    <img src="http://www.goodtimespizzamidland.com/wp-content/uploads/2015/06/Pizza-Feast1.png" length="153px" width="247px">
+    Large family: Two Large two-topping pizzas, breadsticks, cinnamon sticks and six sodas. <b>All for 
+    $29.99!</b>
+  </div>
+  
+</div>
+  
+  
+  
+</body>
+</html>
