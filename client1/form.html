@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Reservation Form</title>
+</head>
+  
+  <style>
+    
+  body {
+    background: linear-gradient(red, white, red);
+    font-family: hobo std;
+    text-align: center;
+  }
+    
+    .header {
+    font-family: broadway;
+    font-size: 65px;
+    text-align: center;
+  }
+    
+  </style>
+  
+  
+<body>
+  
+  <div class="header">
+  Reservation Form
+  </div>
+  
+  <form>
+    First Name:<br>
+    <input type="text" name="firstname"><br>
+    Last Name:<br>
+    <input type="text" name="lastname"><br><br>
+    Package:<br>
+    <input type="radio" name="Package" value="Small">Small<br>
+    <input type="radio" name="Package" value="Medium">Medium<br>
+    <input type="radio" name="Package" value="Large">Large<br>
+    <br>
+       Information
+    <br>
+    <br>
+    Address:<br>
+    <input type="text" name="address"><br>
+    Email:<br>
+    <input type="text" name="email"><br>
+    Phone Number:<br>
+    <input type="text" name="number"><br><br>
+    Day:<br>
+    <input type="text" name="Day"><br><br>
+     Time of Day:<br>
+    <select name="time">
+    <option value="12:00pm">12:00pm</option>
+    <option value="2:30pm">2:30pm</option>
+    <option value="5:00pm">5:00pm</option>
+    <option value="7:30pm">7:30pm</option><br>
+    <br>
+      <input type="submit">
+  </form>
+
+</body>
+</html>
