@@ -5,28 +5,21 @@
         margin:0 auto;
         color:cyan;
         background-color:magenta;
-        font-family:Courier;
+        font-size: 1rem;
+        font-family: Courier;
         text-align:left;
         width:75%;
       }
       
-      div {
+      .favs {
         color:red;
         background-color: black;
+        font-size: 1rem;
         font-family:Courier;
         text-align:center;
       }
       
-      .header {
-        color:blue;
-        background-color:cyan;
-        font-size: 40px;
-        font-family:Verdana;
-        text-align:center;
-        text-shadow: 2px 2px 5px grey;
-      }
-      
-      body {
+       body {
         background-color:turquoise;
         background: linear-gradient(cyan, pink , pink)
       }
@@ -38,12 +31,13 @@
       }
       
       .image {
-        width:100%   
+        width:100%;
       }
       
       .h1 {
         color:purple;
-        background-color:gold
+        background-color:gold;
+        font-size: 2rem;
       }
       
       .p1 {
@@ -52,16 +46,22 @@
         padding:5px;
         margin:0 auto;
         color:gold;
+        background-color: black;
         text-align:right;
         width:50%;
+        font-size: 1rem;
+        font-family: courier;
       }
       
       .p2 {
         color:gold;
+        background-color: black;
         width:1000px;
         text-align:center;
         border:outset 5px gold;
         margin: 0 auto;
+        font-size: 1rem;
+        font-family: courier;
       }
       
       .pbackground {
@@ -71,6 +71,29 @@
         margin:0 auto;
         background-color:cyan;
         width:15%;
+        font-size: 1rem;
         font-family:Courier;
         color:purple;
+      }
+
+      .video {
+       width:100%;
+      }
+
+      .header {
+       min-width: 300px;
+       max-width: 100px;
+      }
+
+      .Saturation3 {
+        border:outset 5px;
+        border-color:blue;
+        padding:5px;
+        margin:0 auto;
+        color:blue;
+        background-color:white;
+        text-align:left;
+        width:50%;
+        font-size:1rem;
+        font-family:courier;
       }
