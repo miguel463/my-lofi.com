@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PAG Contact Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+  
+  <style>
+    
+   .jumbotron {
+    background: url("https://s3-media1.fl.yelpcdn.com/bphoto/z_3Nuhxq-DkjCShrx1nqIA/l.jpg") no-repeat center center; width:100%;  
+} 
+   
+    .intro {
+      text-align:center;
+      font-size:1rem;
+    }
+    
+    .location {
+      text-align:center;
+      font-size:1.5rem;
+      background-color:#CDCDCD;
+    }
+    
+    .welcome {
+      text-align:center;
+      font-size:1.5rem;
+    }
+    
+  </style>
+  
+<body>
+
+  <br>
+  <div class="jumbotron">
+  </div>
+  <br>
+  <div class="location">
+    Patriot Auto Glass Online Contact Form<br><a href="">Back to Home</a>
+  </div>
+  <br>
+  <div class="intro">
+    Please fill out this order form in order to receive a quote and for us to evaluate the severity of your
+    glass problem.
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="phone" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="name" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="address" class="form-control" id="address">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          <label for="comment">Describe the Problem:</label>
+          <textarea class="form-control" rows="8" id="comment"></textarea>
+        </div>
+      </div>
+      <div class="col-sm-4">
+          What service do you think is necessary?:<br>
+          <input type="radio" name="service"> Window Replacement<br>
+          <input type="radio" name="service"> Windshield Repair<br>
+          <input type="radio" name="service"> Window Repair<br>
+          <input type="radio" name="service"> Windshield Replacement<br>
+          <input type="radio" name="service"> Rock Chip Repair<br>
+          <input type="radio" name="service" checked> Other<br>
+      </div>
+        <input type="submit" value="Submit">
+        </form>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="https://s3-media2.fl.yelpcdn.com/bphoto/lY8xiV3_HrD1PquCrL2WXQ/o.jpg" width="100%">
+      </div>
+      <div class="col-sm-4">
+        <img src="https://s3-media1.fl.yelpcdn.com/bphoto/IdshkEdh4lAY1dqi7zUqvg/o.jpg" width="100%">
+      </div>
+      <div class="col-sm-4">
+        <img src="https://s3-media2.fl.yelpcdn.com/bphoto/6rLal7ZGP9vS0sQdZJw5Dw/o.jpg" width="100%">
+      </div>
+    </div>
+  </div>
+  <br>
+        
+  
+  
+</body>
+</html>
